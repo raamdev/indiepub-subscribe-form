@@ -9,35 +9,6 @@ Author URI: http://raamdev.com/
 */
 
 /**
- * Admin functions
- */
-function indiepub_subscribe_form_admin() {
-	include( 'admin-page.php' );
-}
-
-function indiepub_subscribe_form_admin_actions() {
-	add_options_page( "IndiePub Subscribe Form", "IndiePub Subscribe Form", 'manage_options', 'indiepub_subscribe_form_options', "indiepub_subscribe_form_admin" );
-}
-
-add_action( 'admin_menu', 'indiepub_subscribe_form_admin_actions' );
-
-
-/**
- * Add Settings link to the plugin page
- */
-
-// Add settings link on plugin page
-function indiepub_subscribe_form_plugin_settings_link( $links ) {
-	$settings_link = '<a href="options-general.php?page=indiepub_subscribe_form_options">Settings</a>';
-	array_unshift( $links, $settings_link );
-	return $links;
-}
-
-$plugin = plugin_basename( __FILE__ );
-add_filter( "plugin_action_links_$plugin", 'indiepub_subscribe_form_plugin_settings_link' );
-
-
-/**
  * Register stylesheet
  */
 function indiepub_subscribe_form_stylesheet() {
