@@ -119,7 +119,8 @@ function indiepub_subscribe_form_mailchimp() {
 				</div>
 			</form>
 			<div class="subscription-options-button">
-				<span id="subscription-options-button" tabindex="506">Subscription Options</span></div>
+				<span id="subscription-options-button" tabindex="506">Subscription Preferences</span>
+			</div>
 			<div class="rss-feeds" id="rss-feeds">
 				RSS Feeds:&nbsp;
 				<a href="http://feeds.feedburner.com/RaamDevAllTopics">All Topics</a> ·

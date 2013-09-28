@@ -1,5 +1,5 @@
 #indiepub-subscribe-form {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .indiepub-subscribe-form-title {
@@ -12,80 +12,136 @@
 	padding-top: 10px;
 	display: inline-block;
 	font-family: sans-serif;
+	margin-bottom: 20px;
 }
 
 #indiepub-subscribe-form .subscribe-form-name label,
 #indiepub-subscribe-form .subscribe-form-email label {
 	margin-right: 5px;
 	font-weight: 700;
-	font-family: "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-	color: #686868;
-	display: block;
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #666665;
 	font-size: 16px;
 }
+
 #indiepub-subscribe-form .subscribe-form-name,
 #indiepub-subscribe-form .subscribe-form-email,
 #indiepub-subscribe-form .subscribe-form-submit {
-	float: left;
-	width: 33%;
-	min-width: 200px;
+	display: inline-block;
 }
+
+#indiepub-subscribe-form .subscribe-form-name,
+#indiepub-subscribe-form .subscribe-form-email {
+	width: 230px;
+}
+
+#indiepub-subscribe-form .subscribe-form-submit {
+	width: 160px;
+}
+
+#indiepub-subscribe-form .subscribe-form-submit input {
+	margin-top: 1px;
+	font-size: 15px;
+	height: 32px;
+	line-height: 32px;
+}
+
+#indiepub-subscribe-form .subscribe-form-name input,
+#indiepub-subscribe-form .subscribe-form-email input {
+	outline-width: 0;
+}
+
 #indiepub-subscribe-form .subscribe-form-submit {
 	padding-top: 23px;
 }
 
-.indiepub-subscribe-form-fields {
-
-}
-
 .indiepub-subscribe-form-fields input {
-	width: 90%;
+	width: 95%;
 }
 
-.subscription-options-button span
-{
-	font-size     : 12px;
-	cursor        : pointer;
-	border-bottom : 1px dashed rgb(0, 0, 0);
-}
-.subscription-options-button
-{
-	text-align : right;
+.subscription-options-button span {
+	font-size: 12px;
+	cursor: pointer;
+	border-bottom: 1px dashed rgb(0, 0, 0);
 }
 
-#indiepub-subscribe-form .mc-field-group
-{
-	font-size     : 15px;
-	border        : 1px solid rgb(218, 213, 213);
-	margin-bottom : 30px;
-	text-align    : right;
-	padding       : 20px;
-	margin-right: 30px;
+.subscription-options-button {
+	float: right;
+}
+
+#indiepub-subscribe-form .mc-field-group {
+	margin: 0;
+	font-size: 15px;
+	border: 1px solid rgb(218, 213, 213);
+	padding: 20px;
 	clear: both;
-	background: #eee;
-}
-
-#indiepub-subscribe-form .mc-field-group
-{
-	margin-left : 2px;
-	margin-top  : 30px;
+	background: #FDFDFD;
+	max-width: 470px;
+	border-radius: 5px;
+	float: left;
 }
 
 .subscribe-home-essay-topics .groups p {
 	margin-bottom: 0;
 }
 
+#indiepub-subscribe-form .subscription-options-button {
+	margin-right: 80px;
+	margin-top: -20px;
+}
+
 #subscribe-form-widget-subscription-options {
 	display: none;
 }
-#indiepub-subscribe-form .rss-feeds
-{
-	color       : #999;
-	font-size   : 12px;
-	font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight : 300;
-	line-height : 2;
-	margin-top  : 20px;
+
+#indiepub-subscribe-form .rss-feeds {
+	color: #999;
+	font-size: 12px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 2;
+	margin-top: 20px;
 	text-align: center;
 	display: none;
+}
+
+#indiepub-subscribe-form .subscribe-home-essay-topics {
+	margin-top: 20px;
+}
+
+#indiepub-subscribe-form .subscribe-home-essay-topics p {
+	margin-bottom: 0;
+}
+
+#indiepub-subscribe-form .subscribe-home-essay-topics .groups {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width : 770px) {
+	#indiepub-subscribe-form .subscribe-form-name,
+	#indiepub-subscribe-form .subscribe-form-email,
+	#indiepub-subscribe-form .subscribe-form-submit {
+		display: block;
+	}
+
+	#indiepub-subscribe-form .subscribe-form-name {
+		width: 90%;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	#indiepub-subscribe-form .subscribe-form-email {
+		width: 90%;
+		margin-bottom: 10px
+	}
+
+	#indiepub-subscribe-form .subscribe-form-submit {
+		width: 160px;
+		padding-top: 10px;
+	}
+
+	#indiepub-subscribe-form .subscription-options-button {
+		float: none;
+	}
 }
