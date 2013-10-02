@@ -133,3 +133,17 @@ function indiepub_subscribe_form_mailchimp() {
 
 <?php
 }
+
+/**
+ * Custom Subscribe Form for outputting custom form title and data
+ */
+function indiepub_subscribe_form_custom( $form_title = "", $form_html = "") {
+	?>
+	<div id="indiepub-subscribe-form">
+		<section>
+			<p class="indiepub-subscribe-form-title"><?php echo $form_title; ?></p>
+			<?php echo $form_html; ?>
+		</section>
+	</div>
+<?php
+}
