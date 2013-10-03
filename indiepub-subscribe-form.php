@@ -85,20 +85,22 @@ function indiepub_subscribe_form_mailchimp() {
 					</p>
 				</div>
 				<div class="mc-field-group" id="subscribe-form-widget-subscription-options">
-					<label for="mce-group[1129]">When new essays are published, email me: </label>
-					<select name="group[1129]" class="REQ_CSS" id="mce-group[1129]" tabindex="507">
-						<option value="1" selected="selected">immediately</option>
-						<option value="2">a weekly digest</option>
-						<option value="4">a monthly digest</option>
-					</select>
-					<br />
-					<label for="mce-group[1873]">When new thoughts are published, email me: </label>
-					<select name="group[1873]" class="REQ_CSS" id="mce-group[1873]" tabindex="508">
-						<option value="8">immediately</option>
-						<option value="16">a weekly digest</option>
-						<option value="32" selected="selected">a monthly digest</option>
-					</select>
-
+					<p>
+						<label for="mce-group[1129]">When new essays are published, email me: </label>
+						<select name="group[1129]" class="REQ_CSS" id="mce-group[1129]" tabindex="507">
+							<option value="1" selected="selected">immediately</option>
+							<option value="2">a weekly digest</option>
+							<option value="4">a monthly digest</option>
+						</select>
+					</p>
+					<p>
+						<label for="mce-group[1873]">When new thoughts are published, email me: </label>
+						<select name="group[1873]" class="REQ_CSS" id="mce-group[1873]" tabindex="508">
+							<option value="8">immediately</option>
+							<option value="16">a weekly digest</option>
+							<option value="32" selected="selected">a monthly digest</option>
+						</select>
+					</p>
 					<div class="subscribe-home-essay-topics">
 						<p>Send me thoughts and essays on the following topics:</p>
 

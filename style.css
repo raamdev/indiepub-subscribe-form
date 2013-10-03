@@ -75,7 +75,7 @@
 	padding: 20px;
 	clear: both;
 	background: #FDFDFD;
-	max-width: 470px;
+	width:80%;
 	border-radius: 5px;
 	float: left;
 }
@@ -99,9 +99,12 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	line-height: 2;
-	margin-top: 20px;
+	padding-top: 20px;
+	margin-left: 10px;
 	text-align: center;
 	display: none;
+	clear: both;
+	width: 80%;
 }
 
 #indiepub-subscribe-form .subscribe-home-essay-topics {
